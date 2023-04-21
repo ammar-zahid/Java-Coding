@@ -8,11 +8,13 @@ public class Variables {
         char character = '$';
         String name = "Tony Stark";
         Boolean decision = true;
+        float rate = 34;
 
         System.out.println(number);
         System.out.println(percentage);
         System.out.println(character);
         System.out.println(name);
         System.out.println(decision);
+        System.out.println(rate);
     }
 }
