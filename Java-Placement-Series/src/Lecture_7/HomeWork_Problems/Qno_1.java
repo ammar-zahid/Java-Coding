@@ -23,5 +23,6 @@ public class Qno_1 {
         int n = sc.nextInt();
 
         PrimeNumber(n);
+        sc.close();
     }
 }
