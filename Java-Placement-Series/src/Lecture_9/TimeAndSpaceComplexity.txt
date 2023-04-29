@@ -1,0 +1,56 @@
+                                    ** TIME AND SPACE COMPLEXITY **
+
+Time Complexity: 
+                Relation between Input Size and Running Time (operations).
+    Types: 
+        Linear, Quadratic, Cubic, Log, Sqrt etc.
+
+    Example: 
+            public static void main(){
+                Scanner sc = new Scanner(System.in);
+                int n = sc.nextInt();
+
+                for(int i = 0; i < n; i++){
+                    System.out.println("Hello World");
+                }
+            }
+
+-In this example we can see that time complexity is directly proportional to input n (Linear Relation)-
+
+Time Complexity Cases:
+
+    1- Best Case 
+        Example: 
+                Suppose if we need to find "1" in array of numbers (1,2,3,4,5,6).
+
+                We can find it in position one by performing just one operation. This is Best Case.
+
+    2- Average Case
+        Example: 
+                Suppose if a radom order of numbers (3,2,5,1,4) is given and we have to find "1" 
+                in this.
+
+                In "Best Case" we found it in position 1. But, in this case we will add all 
+                cases(operation) [ (1+2+3+4+5) / 5 ] and divide it by 5.
+
+                It means that in general [ (1 + 2 + 3 + ---- + n) / n ] --> [ (n(n+1)) / 2 x n ]
+                --> [ (n + 1) / 2 ] --> This is Average Case Time.
+  
+    3- Worst Case
+        Example:
+                Suppose a random order of numbers (3,5,2,4,1) is given or [ (2,5,3,4),1 ] and we 
+                have to find "1" in this. We have to take 4 steps first to reach "1".
+
+                Suppose if "1" is at 100th index, then we must have to take 99 steps to reach.
+
+                Now we can see that relation is directly proportional to n.
+
+Representations of Time Complexity:
+
+    1- Best Case --> Omega(Symbol) (1)
+    2- Average Case --> Theta(Symbol) [ (n + 1) / 2 ]
+    3- Worst Case --> Big O (n)
+
+- We will be focusing on Worst Time Complexity in our problems, interviews etc. Because, Our code
+will never take time more than it so, if we find worst case then we can systematically sort it out.
+We can find Best and Average Case Complexity but , we cant consider it.
