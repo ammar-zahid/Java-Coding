@@ -10,7 +10,7 @@ class Student{
     }
 
     Student(){
-        System.out.println("Constructor called"); // --> Non parameterized structure
+        System.out.println("Constructor called"); // --> Non parameterized Constructor
     }
 }
 public class Part_2 {
@@ -30,6 +30,8 @@ public class Part_2 {
 // Constructors constructs the objects and they dont have return type
 // Types
 //      1- Non parameterized Constructors
+//      2- Parameterized Constructors
+//      3- Copy Constructors
 
 // Properties of Constructors
         // 1- Name of Constructor and name of class must be same 
