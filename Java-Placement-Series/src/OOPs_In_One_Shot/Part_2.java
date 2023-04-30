@@ -8,6 +8,10 @@ class Student{
         System.out.println(this.name);
         System.out.println(this.age);
     }
+
+    Student(){
+        System.out.println("Constructor called"); // --> Non parameterized structure
+    }
 }
 public class Part_2 {
     public static void main(String[] args) {
