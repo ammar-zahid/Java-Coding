@@ -1,7 +1,11 @@
-                                    ** TIME AND SPACE COMPLEXITY **
+                                 ** TIME AND SPACE COMPLEXITY **
 
 Time Complexity: 
                 Relation between Input Size and Running Time (operations).
+                Time complexity is defined as the amount of time taken by an algorithm to run, 
+                as a function of the length of the input. It measures the time taken to execute each 
+                statement of code in an algorithm.
+
     Types: 
         Linear, Quadratic, Cubic, Log, Sqrt etc.
 
@@ -54,3 +58,12 @@ Representations of Time Complexity:
 - We will be focusing on Worst Time Complexity in our problems, interviews etc. Because, Our code
 will never take time more than it so, if we find worst case then we can systematically sort it out.
 We can find Best and Average Case Complexity but , we cant consider it.
+
+In Data Structures and in Dynamic Programming we will be optimizing Time Complexity of our codes.
+
+                    SHORTER TIME COMPLEXITY == FASTER CODE RUN TIME
+
+Space Complexity: 
+                Space complexity refers to the total amount of memory space used by an 
+                algorithm/program, including the space of input values for execution. Calculate 
+                the space occupied by variables in an algorithm/program to determine space complexity.
